@@ -44,7 +44,7 @@ class poseDetector():
         if self.results.pose_landmarks:      
             for id, lm in enumerate(self.results.pose_landmarks.landmark):
                 h, w, c = img.shape
-                print(id, lm)
+                #print(id, lm)
                 #get actual pixel value of landmarks
                 cx, cy = int(lm.x * w), int(lm.y * h)
                 lmList.append([id, cx, cy]) 
