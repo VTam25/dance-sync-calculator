@@ -58,7 +58,7 @@ class poseDetector():
 
 
 def main():
-    cap = cv2.VideoCapture('orig_videos/Fearless.mp4')
+    cap = cv2.VideoCapture('orig_videos/LoveShot.mp4')
     pTime = 0
     detector = poseDetector()
 
